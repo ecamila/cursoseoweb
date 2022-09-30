@@ -11,6 +11,7 @@ body{
 
   .contenedor{
     width: 1000px;
+    min-width: 500px;
     background-color: rgba(0, 0, 0, 0.336);
     color: rgb(233, 224, 224);
     padding: 100px;
@@ -18,15 +19,13 @@ body{
     margin:0 auto;
   }
 
-
-
   h1{
     color:rgb(243, 137, 160);
     font-size: 40px;
   }
 
   h2{
-    color: rgb(228, 147, 214);
+    color: rgb(147, 152, 228);
   }
 
  h2,p,img,a{
