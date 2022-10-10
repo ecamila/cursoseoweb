@@ -1,0 +1,99 @@
+<!DOCTYPE   html>
+<html>
+    <HEAD>
+        <title>PROBANDO FLEXBOX </title>
+        <style>
+            .flex-container{
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(117, 105, 226);
+            margin-bottom: 100px;}
+
+            .flex-container > div{
+            background-color: rgb(167, 167, 236);
+            width: 50%;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
+        }
+
+
+        #two{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            background-color: rgb(101, 189, 230);
+            margin-bottom: 100px;}
+            
+    
+
+        .flex-container2 > div{
+            background-color: rgb(167, 228, 236);
+            margin: 10px;
+            width: 100px;
+            text-align: center;
+            line-height: 75px;
+            font-size: 30px;
+        }
+
+
+        #three{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+            background-color: rgb(219, 153, 77);
+            margin-bottom: 100px;}
+            
+        
+
+        .flex-container3 > div{
+            background-color: rgb(236, 200, 167);
+            margin: 10px;
+            width: 300px;
+            height: 300px;
+            line-height: 300px;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        </style>
+            
+    </HEAD>
+    <body>
+        <div class="flex-container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+        
+
+        <div class="flex-container2" id="two">
+            <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+                <div>7</div>
+                <div>8</div>
+                <div>9</div>
+        </div>
+
+
+        <div class="flex-container3" id="three">
+            <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+                <div>7</div>
+                <div>8</div>
+                <div>9</div>
+        </div>
+                
+    </body>
+
+</html>
